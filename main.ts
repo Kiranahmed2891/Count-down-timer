@@ -31,7 +31,7 @@ function startTime(val: number) {
   let intTime = new Date().setSeconds(new Date().getSeconds() + val);
   let intervalTime = new Date(intTime);
 
-  // ابتدائی گنتی کی ویلیو کو فوری ظاہر کریں
+  
   let currTime = new Date();
   let timeDiff = differenceInSeconds(intervalTime, currTime);
   let min = Math.floor((timeDiff % (3600 * 24)) / 3600);
